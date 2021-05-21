@@ -7,7 +7,7 @@ include_recipe 'java'
 
 group node['tomcat']['group']
 
-user node['tomcat']['user']
+user node['tomcat']['user'] do
 group node['tomcat']['group']
 system true
 shell node['tomcat']['terminal']
