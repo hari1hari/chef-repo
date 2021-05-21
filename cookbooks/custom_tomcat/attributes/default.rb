@@ -1,0 +1,6 @@
+default['tomcat']['group'] = 'tomcat'
+default['tomcat']['user' = 'tomcat'
+default['tomcat']['terminal'] = '/bin/bash'
+default['tomcat']['url'] = 'https://apachemirror.wuchna.com/tomcat/tomcat-7/v7.0.109/bin/apache-tomcat-7.0.109.zip'
+default['tomcat']['root'] = 'root'
+default['tomcat']['homedir'] = '/opt/tomcat'
